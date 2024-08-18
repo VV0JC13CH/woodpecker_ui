@@ -13,7 +13,7 @@ debug-render = []
 metrics = []
 
 [dependencies]
-bevy_mod_picking = "0.20"
+bevy_mod_picking = { git = "https://github.com/StarArawn/bevy_mod_picking", branch = "main" }
 bevy_vello = { version = "0.6.1", features = ["svg"] }
 bevy-inspector-egui = "0.25"
 bevy-trait-query = { git = "https://github.com/RobWalt/bevy-trait-query", rev = "215b9068e8457d96ddcd4c8efa9605ba0f8feda5" }
